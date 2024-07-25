@@ -1,0 +1,36 @@
+.header{
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef;
+    .logo{
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+    h1{
+        margin: 0;
+    }
+    .nav{
+        float: right;
+        .nav-item{
+            display: inline-block;
+            margin-left: 10px;
+            a{
+                color: #000;
+                text-decoration: none;
+                &:hover{
+                    color: #007bff;
+                }
+            }
+        }
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    margin: 10px auto;
+}
