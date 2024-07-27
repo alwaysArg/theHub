@@ -12,19 +12,23 @@ import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { provideHttpClient } from '@angular/common/http';
+import { MaterialesComponent } from './pages/materiales/materiales.component';
+import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SelectorComponent
+    SelectorComponent,
+    MaterialesComponent
   ],
   imports: [
     BrowserModule,
     MatFormFieldModule,
     AppRoutingModule,
     MatButtonModule,
+    MatTableModule,
     MatInputModule,
     MatSelectModule,
     FormsModule,
