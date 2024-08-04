@@ -1,0 +1,49 @@
+
+
+.plyManager {
+  height: 100%;
+  margin: 10px;
+  width: 90vw;
+  height: 80vh;
+  background-color: grey;
+  display: flex;
+}
+
+.plyDatabaseContainer {
+  min-width: 300px;
+  width: 30%;
+  padding: 10px;
+}
+
+.plyPropertiesContainer{
+    width: 70%;
+}
+
+.databaseSelectorContainer {
+  height:80px;
+  box-sizing:border-box;
+  display: flex;
+
+}
+
+.databaseSelectorContainer h3{
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.plyListContainer {
+    border: white 2px solid;
+    margin-bottom: 0;
+    height : calc(100% - 90px);
+
+
+}
+
+.plyControlsContainer {
+  padding: 5px;
+  border: black 2px solid;
+}
+
+.tableContainer {
+}
