@@ -14,6 +14,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { provideHttpClient } from '@angular/common/http';
 import { MaterialesComponent } from './pages/materiales/materiales.component';
 import {MatTableModule} from '@angular/material/table';
+import { OusiaPageComponent } from './pages/ousia-page/ousia-page.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import {MatTableModule} from '@angular/material/table';
     AppComponent,
     HomeComponent,
     SelectorComponent,
-    MaterialesComponent
+    MaterialesComponent,
+    OusiaPageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
